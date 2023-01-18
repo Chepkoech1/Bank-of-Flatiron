@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     console.log("hey");
-    fetch("https://chepkoech.vercel.app/transactions
+    fetch("https://chepkoech.vercel.app/transactions")
       .then(res => res.json())
       .then(res => {
         setRecords(res);
