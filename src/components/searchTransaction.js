@@ -17,7 +17,9 @@ const SearchTransaction = ({ TransactionRecords, setRecords }) => {
 
   return (
     <div>
+      
       <h1>BANK OF FLATIRON</h1>
+      <a href='/home'>HOME</a>
       <form>
       <input className='SEARCH' type="text" placeholder='search' onChange={handleSearchItem}/>
     </form>

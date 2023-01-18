@@ -46,7 +46,12 @@ h1{
 .inpu{
   margin-left: 50px;
 }
-
+a{
+margin-top: -12vh;
+ margin-left: 7vh;
+ margin-top: 12vh;
+ font-size: 5vh;
+}
 
 
 
