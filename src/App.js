@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     console.log("hey");
-    fetch("http://localhost:3000/transactions")
+    fetch("https://chepkoech.vercel.app/transactions
       .then(res => res.json())
       .then(res => {
         setRecords(res);
