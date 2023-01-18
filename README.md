@@ -17,7 +17,8 @@ change directory into the repository folder
 ## Running the application
 - Use the following steps to run the app:
 
-  - first run json-server --watch db.json n db.json folder
+  - first run json-server --watch db.json in db folder
+-Navigate back flatiron folder in phase-2-code-challenges folder in a new terminal
 
 - Run npm install
 - Then run npm start to open in the browser.
