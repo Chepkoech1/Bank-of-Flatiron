@@ -20,7 +20,7 @@ const AddTransaction = ({TransactionRecords, setRecords }) => {
   }
 
   function sendDataToDatabase() {
-    fetch('http://localhost:3000/transactions', {
+    fetch('https://chepkoech.vercel.app/transactions', {
       method: 'POST',
       body: JSON.stringify({
         date, description, amount
