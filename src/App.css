@@ -12,6 +12,44 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.search{
+  margin-left: 500px;
+  font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+tr{
+  background-color: burlywood;
+  font-size: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+
+  
+
+}
+table{
+  margin-left: 170px;
+  margin-top: 2vh;
+  width: 150vh;
+}
+h1{
+  text-align: center;
+}
+.SEARCH{
+  text-align: center;
+  margin-left: 85vh;
+  margin-bottom: 10px;
+  padding: 4px;
+  border: 3px solid black;
+
+}
+.inpu{
+  margin-left: 50px;
+}
+
+
+
+
 
 .App-header {
   background-color: #282c34;

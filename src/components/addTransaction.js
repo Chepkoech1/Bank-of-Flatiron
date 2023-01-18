@@ -36,11 +36,11 @@ const AddTransaction = ({TransactionRecords, setRecords }) => {
   }
 
   return (
-    <form>
-      <input type="date" onChange={(e)=>{handleSetDate(e)}} placeholder='Date'/>
-      <input type="text" onChange={(e)=>{handleSetDescription(e)}} placeholder='Description'/>
-      <input type="number" onChange={(e)=>{handleSetAmount(e)}} placeholder='Amount' />
-      <button type='button' onClick={sendDataToDatabase}>Add Record</button>
+    <form className='search'>
+      <input className='inpu' type="date" onChange={(e)=>{handleSetDate(e)}} placeholder='Date'/>
+      <input className='inpu' type="text" onChange={(e)=>{handleSetDescription(e)}} placeholder='Description'/>
+      <input className='inpu' type="number" onChange={(e)=>{handleSetAmount(e)}} placeholder='Amount' />
+      <button className='inpu' type='button' onClick={sendDataToDatabase}>Add Record</button>
     </form>
   )
 }
